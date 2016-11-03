@@ -1,14 +1,15 @@
+
 % Please use the skeleton file you have received in the
 % invitation-to-submit email, where your data are already
 % filled in. Otherwise please make sure you insert your
 % data according to the instructions in PoSauthmanual.pdf
 \documentclass{PoS}
 
-\title{Higgs boson searches beyond the Standard Model}
+\title{Beyond Standard Model Higgs boson searches}
 
-\ShortTitle{Short Title for header}
+\ShortTitle{Beyond Standard Model Higgs boson searches}
 
-\author{\speaker{Claudio Caputo}\thanks{A footnote may follow.}\\
+\author{\speaker{Claudio Caputo}\\
         Universit\'a degli Studi di Bari, Istituto Nazione di Fisica Nucleare\\
         E-mail: \email{claudio.caputo@cern.ch}}
 
@@ -17,7 +18,7 @@ LABEX (under reference ANR-10-LABX-63 and ANR-11-IDEX-0004-02).}\\
         Laboratoire de Physique Nucl\'eaire et de Hautes Energies and Institute Lagrange de Paris,\\
         E-mail: \email{paolo.francavilla@cern.ch}}
 
-\abstract{The discovery of the a scalar particle at the Large Hadron Collider (LHC) is one of the major achivements by the ATLAS and CMS collaborations. Important questions on the nature of this new boson and on possible extensions of the scalar sector of the Standard Model have been addressed by both the ATLAS and CMS collaborations with a vast variety of searches performed  at a centre-of-mass energy of 7 TeV and 8 TeV (LHC Run 1). Thanks to the first LHC collision at a centre-of-mass energy of 13 TeV (LHC Run 2), new searches which go beyond the Run 1 reach, have been performed by the LHC collaborations. Among them we describe the searches for  $A/H\rightarrow\tau\tau$ and $H\rightarrow hh$ in this proceeding. }
+\abstract{The discovery of the Higgs boson at the Large Hadron Collider (LHC) is one of the major achievements of the ATLAS and CMS collaborations. Important questions on the nature of this new boson and on possible extensions of the scalar sector of the Standard Model have been tested by both the ATLAS and CMS collaborations with a vast variety of searches performed  at a centre-of-mass energy of 7 TeV and 8 TeV (LHC Run 1). New searches, surpassing the Run 1 sensitivities, have been performed by the LHC collaborations with the proton proton collision data collected in 2015 at a centre-of-mass energy of 13 TeV. Two examples, the searches for $A/H\rightarrow\tau\tau$ and $H\rightarrow hh$, have been selected for a detailed description in these proceedings. }
 
 \FullConference{VII Workshop italiano sulla fisica pp a LHC\\
 		16-18 Maggio 2016\\
@@ -25,6 +26,12 @@ LABEX (under reference ANR-10-LABX-63 and ANR-11-IDEX-0004-02).}\\
 
 
 \begin{document}
+%%%
+% Please do not remove the following 3 lines. They are needed % in order to hide the speaker name in the page header.
+\makeatletter
+\global\setbox\@firstaubox\hbox{\relax}
+\makeatother
+%%%
 
 \section{Introduction}
 \input{introduction}
@@ -41,8 +48,10 @@ LABEX (under reference ANR-10-LABX-63 and ANR-11-IDEX-0004-02).}\\
 \section{Conclusions}
 \input{conclusions}
 
-\bibliography{mybib}{}
-\bibliographystyle{plain}
+%\addbibresource{paper.bib}
+%\printbibliography
+\bibliography{skeleton}{}
+\bibliographystyle{ieeetr}
 
 
 \end{document}
